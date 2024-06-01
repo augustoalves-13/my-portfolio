@@ -10,10 +10,10 @@ const HomeView = () => {
 
          <section className='home-content'>
          
-            <h3>Olá 👋</h3>
-            <h1>Eu sou Augusto, Desenvolvedor Front-End</h1>
+            {/*<h3>Olá 👋</h3>*/}
+            <h1 data-aos='zoom-in'>Eu sou Augusto, Desenvolvedor Front-End</h1>
 
-            <nav>
+            <nav data-aos='zoom-in-up'>
                <RadioLinks
                   url='https://github.com/augustoalves-13'
                   icon='/icons/git-hub.svg'
@@ -33,3 +33,5 @@ const HomeView = () => {
 }
 
 export default HomeView
+
+//
