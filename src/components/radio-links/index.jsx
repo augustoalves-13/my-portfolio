@@ -13,7 +13,7 @@ const RadioLinks = (props) => {
 
    return(
       <button className='radioLinks-container' onClick={openURL}>
-         <img src={props.icon} alt={`${props.name} icon`}/>
+         {props.children}
       </button>
    )
 }

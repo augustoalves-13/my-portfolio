@@ -10,9 +10,18 @@
    align-items: center;
    justify-content: center;
 
-   img{
-      height: 35px;
-      width: 35px;
-      object-fit: contain;
+
+   transition: .5s;
+
+   path{
+      transition: .5s;
+   }
+}
+
+.radioLinks-container:hover{
+   background-color: #0F1630;
+
+   path{
+      fill: #3D5BCC;
    }
 }
